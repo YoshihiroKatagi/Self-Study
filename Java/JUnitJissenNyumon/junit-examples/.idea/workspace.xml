@@ -5,11 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d58821c8-60b7-401c-9e33-f79c7427c7dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch04/IsDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch04/IsDateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch05/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch05/ItemStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch06/ItemStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch06/ItemStockImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch06/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch06/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch05/CalcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch05/CalcTheoriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch05/CategoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch05/ItemStockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch05/SlowAndFastTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch05/SlowTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/ArrayListEnclosedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/ArrayListFlatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/DbUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/ItemStockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/rule/InMemoryDBRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/rule/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/withoutrule/InMemoryDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch06/withoutrule/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,20 +57,81 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Dev/Self-Study/Java/JUnitJissenNyumon/junit-examples",
     "onboarding.tips.debug.path": "C:/Dev/Self-Study/Java/JUnitJissenNyumon/junit-examples/src/main/java/junit/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="IsDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayListEnclosedTest">
+    <configuration name="ArrayListEnclosedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.example.ch04.*" />
+          <option name="PATTERN" value="junit.example.ch06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit.example.ch04" />
-      <option name="MAIN_CLASS_NAME" value="junit.example.ch04.IsDateTest" />
+      <option name="PACKAGE_NAME" value="junit.example.ch06" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch06.ArrayListEnclosedTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListFlatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.example.ch06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit.example.ch06" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch06.ArrayListFlatTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemStockTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.example.ch06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit.example.ch06" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch06.ItemStockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.example.ch06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit.example.ch06" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch06.UserDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.example.ch06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit.example.ch06" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch06.UserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,7 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IsDateTest" />
+        <item itemvalue="JUnit.ArrayListEnclosedTest" />
+        <item itemvalue="JUnit.ArrayListFlatTest" />
+        <item itemvalue="JUnit.UserDaoTest" />
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.ItemStockTest (1)" />
       </list>
     </recent_temporary>
   </component>
