@@ -8,7 +8,7 @@ const int INF = 1<<29;
 
 int main() {
     int N, K, W;
-    cin >> N >>K >> W;
+    cin >> N >> K >> W;
     vector<int> a(N);
     for (int i = 0; i < N; i++) cin >> a[i];
 
