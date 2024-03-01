@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d58821c8-60b7-401c-9e33-f79c7427c7dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch07/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch07/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch07/BookStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch07/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch07/LruCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch07/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch08/Janken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch07/BookStoreComplexSetupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch07/BookStoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch07/BookStoreTestHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch07/BookStoreYamlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch07/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch07/LruCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch07/StringUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch08/JankenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ch07/book_fixtures.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch09/ErrorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch09/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch09/TemporaryFolderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch09/VerifierExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch09/ExternalResourceExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch09/SpecificTemporaryFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch09/TemporaryFolderExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch09/VerifierExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch09/VerifierExternalObjectExampleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,32 +49,17 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.JankenTest">
-    <configuration name="BookStoreComplexSetupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VerifierExternalObjectExampleTest.testCase">
+    <configuration name="ExternalResourceExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.example.ch07.*" />
+          <option name="PATTERN" value="junit.example.ch09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit.example.ch07" />
-      <option name="MAIN_CLASS_NAME" value="junit.example.ch07.BookStoreComplexSetupTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit.example.ch07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit.example.ch07" />
-      <option name="MAIN_CLASS_NAME" value="junit.example.ch07.BookStoreTest" />
+      <option name="PACKAGE_NAME" value="junit.example.ch09" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch09.ExternalResourceExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,43 +80,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LruCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TemporaryFolderExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.example.ch07.*" />
+          <option name="PATTERN" value="junit.example.ch09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit.example.ch07" />
-      <option name="MAIN_CLASS_NAME" value="junit.example.ch07.LruCacheTest" />
+      <option name="PACKAGE_NAME" value="junit.example.ch09" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch09.TemporaryFolderExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifierExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.example.ch07.*" />
+          <option name="PATTERN" value="junit.example.ch09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit.example.ch07" />
-      <option name="MAIN_CLASS_NAME" value="junit.example.ch07.StringUtilTest" />
+      <option name="PACKAGE_NAME" value="junit.example.ch09" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch09.VerifierExampleTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifierExternalObjectExampleTest.testCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.example.ch09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit.example.ch09" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch09.VerifierExternalObjectExampleTest" />
+      <option name="METHOD_NAME" value="testCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VerifierExternalObjectExampleTest.testCase" />
+        <item itemvalue="JUnit.VerifierExampleTest" />
+        <item itemvalue="JUnit.ExternalResourceExampleTest" />
+        <item itemvalue="JUnit.TemporaryFolderExampleTest" />
         <item itemvalue="JUnit.JankenTest" />
-        <item itemvalue="JUnit.BookStoreTest" />
-        <item itemvalue="JUnit.LruCacheTest" />
-        <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="JUnit.BookStoreComplexSetupTest" />
       </list>
     </recent_temporary>
   </component>
