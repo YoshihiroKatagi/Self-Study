@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d58821c8-60b7-401c-9e33-f79c7427c7dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch10/BarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch10/CategorizedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch10/FastTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch10/FooTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch10/SlowTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/DateDependencyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/MethodExtractExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/RandomNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/RandomNumberGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/Randoms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/DateDependencyExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/MethodExtractExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/MockitoExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/RandomMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/RandomNumberGeneratorFixedResultStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/RandomsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +52,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CategorizedTest">
-    <configuration name="BarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit.example.ch10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit.example.ch10" />
-      <option name="MAIN_CLASS_NAME" value="junit.example.ch10.BarTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MockitoExamples">
     <configuration name="CategorizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-examples" />
       <extension name="coverage">
@@ -75,59 +68,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DateDependencyExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.example.ch10.*" />
+          <option name="PATTERN" value="junit.example.ch11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit.example.ch10" />
-      <option name="MAIN_CLASS_NAME" value="junit.example.ch10.FooTest" />
+      <option name="PACKAGE_NAME" value="junit.example.ch11" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch11.DateDependencyExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifierExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MethodExtractExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.example.ch09.*" />
+          <option name="PATTERN" value="junit.example.ch11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit.example.ch09" />
-      <option name="MAIN_CLASS_NAME" value="junit.example.ch09.VerifierExampleTest" />
+      <option name="PACKAGE_NAME" value="junit.example.ch11" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch11.MethodExtractExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifierExternalObjectExampleTest.testCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockitoExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.example.ch09.*" />
+          <option name="PATTERN" value="junit.example.ch11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit.example.ch09" />
-      <option name="MAIN_CLASS_NAME" value="junit.example.ch09.VerifierExternalObjectExampleTest" />
-      <option name="METHOD_NAME" value="testCase" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="junit.example.ch11" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch11.MockitoExamples" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.example.ch11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit.example.ch11" />
+      <option name="MAIN_CLASS_NAME" value="junit.example.ch11.RandomMockTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MockitoExamples" />
+        <item itemvalue="JUnit.RandomMockTest" />
+        <item itemvalue="JUnit.MethodExtractExampleTest" />
+        <item itemvalue="JUnit.DateDependencyExampleTest" />
         <item itemvalue="JUnit.CategorizedTest" />
-        <item itemvalue="JUnit.BarTest" />
-        <item itemvalue="JUnit.FooTest" />
-        <item itemvalue="JUnit.VerifierExternalObjectExampleTest.testCase" />
-        <item itemvalue="JUnit.VerifierExampleTest" />
       </list>
     </recent_temporary>
   </component>
