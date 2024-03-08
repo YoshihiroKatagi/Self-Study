@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d58821c8-60b7-401c-9e33-f79c7427c7dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/DateDependencyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/MethodExtractExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/RandomNumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/RandomNumberGeneratorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/junit/example/ch11/Randoms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/DateDependencyExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/MethodExtractExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/MockitoExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/RandomMockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/RandomNumberGeneratorFixedResultStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/example/ch11/RandomsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d58821c8-60b7-401c-9e33-f79c7427c7dd" name="Changes" comment="Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2cwJPy9OrYLyG57lv0pInjzjMWq" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,15 +32,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Dev/Self-Study/Java/JUnitJissenNyumon/junit-examples",
-    "onboarding.tips.debug.path": "C:/Dev/Self-Study/Java/JUnitJissenNyumon/junit-examples/src/main/java/junit/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunManager" selected="JUnit.MockitoExamples">
     <configuration name="CategorizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-examples" />
