@@ -1,4 +1,4 @@
-from collections import deque
+import heapq
 
 N, M = map(int, input().split())
 edges = [ list(map(int, input().split())) for i in range(M) ]
@@ -9,31 +9,27 @@ for a, b, c in edges:
   G[a].append([b, c])
   G[b].append([a, c])
 
-# print(G)
-Q = deque()
-kakutei = [False] * (N + 1)
-cur = [2000000000] * (N + 1)
-
+INF = 10 ** 10
+kakutei = [ False ] * (N + 1)
+cur = [ INF ] * (N + 1)
 cur[1] = 0
-Q.append(cur[1], 1)
+Q = []
+heapq.heappush(Q, (cur[1], 1))
 
-while Q.empty() == False:
-  pos = Q.top()[1]
-  Q.pop()
+while len(Q) >= 1:
+  pos = heapq.heappop(Q)[1]
 
   if kakutei[pos] == True:
     continue
 
   kakutei[pos] = True
-  for i in range(len(G[pos])):
-    nex = G[pos][i][0]
-    cost = G[pos][i][1]
-    if cur[nex] > cur[pos] + cost:
-      cur[nex] = cur[pos] + cost
-      Q.append([cur[nex], nex])
+  for e in G[pos]:
+    if cur[e[0]] > cur[pos] + e[1]:
+      cur[e[0]] = cur[pos] + e[1]
+      heapq.heappush(Q, (cur[e[0]],e[0]))
 
-for i in range(1, N):
-  if cur[i] == 2000000000:
+for i in range(1, N + 1):
+  if cur[i] == INF:
     print("-1")
   else:
     print(cur[i])
