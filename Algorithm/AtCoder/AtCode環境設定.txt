@@ -1,0 +1,28 @@
+install atcoder-cli (https://github.com/Tatamo/atcoder-cli?tab=readme-ov-file)
+> npm i -g atcoder-cli
+
+install online-judge-tools (https://github.com/online-judge-tools/oj/blob/master/docs/getting-started.ja.md)
+> pip3 install --user online-judge-tools
+** TODO add path in env like .zshrc (export PATH=$PATH:/home/ayaka/.local/bin)
+
+create template
+> cd `acc config-dir`
+> mkdir <your-template-name>
+> cd <your-template-name>
+> vi template.json
+
+use template
+> acc config default-template <your-template-name>
+
+create dir for contest
+> acc new abc102
+
+login 
+> oj login https://atcoder.jp/contests/**
+// https://atcoder.jp/contests/abc102/tasks/abc102_a
+
+test
+> oj t -c "python main.py" -d ./tests/
+
+submit answer
+> acc submit main.py
